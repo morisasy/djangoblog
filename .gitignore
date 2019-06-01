@@ -8,6 +8,15 @@ include/
 *.so
 
 # Distribution / packaging
+include/
+bin/
+users/migrations/
+entries/migrations/
+entries/__pycache__/
+users/__pycache__/
+blog/__pycache__/
+
+
 .Python
 build/
 develop-eggs/
@@ -16,6 +25,8 @@ downloads/
 eggs/
 .eggs/
 lib/
+bin/
+include/
 lib64/
 parts/
 sdist/
